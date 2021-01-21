@@ -22,9 +22,9 @@ public class Task4 {
             double x = scanner.nextDouble();
 
             if (x >= 5) {
-                y = (Math.pow(x,2) - 10) / (100 + 7);
+                y = (Math.pow(x, 2) - 10) / (x + 7);
             } else if (x > -3 && x < 5) {
-                y = (x + 3) * (Math.pow(x,2) - 2);
+                y = (x + 3) * (Math.pow(x, 2) - 2);
             } else {
                 y = 420;
             }

@@ -26,7 +26,6 @@ public class Task2 {
             if (b - a <= 0) {
                 System.out.println("Некорректный ввод");
             } else {
-                System.out.println("Вывод: ");
                 for (int i = a + 1; i < b; i++) {
                     if (i % 5 == 0 && i % 10 != 0) {
                         System.out.print(i + " ");
