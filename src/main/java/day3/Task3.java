@@ -29,6 +29,14 @@ public class Task3 {
             if (num2 == 0) {
                 System.out.println("Деление на 0");
             }
+
+
+
+
+
+
+
+
         }
     }
 }
