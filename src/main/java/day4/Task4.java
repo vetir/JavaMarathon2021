@@ -25,7 +25,7 @@ public class Task4 {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 10001);
         }
-        System.out.println(Arrays.toString(array));
+
 
         for (int i = 0; i < array.length - 2; i++) {
             sum = array[i] + array[i+1] + array[i+2];
